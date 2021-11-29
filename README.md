@@ -13,7 +13,7 @@ To view our code and video demo, follow the GitHub Link:
 
 
 # Application Structure
-App.js|
+App.js
     -> app
       -> screens
         -> cameraScreen.js
