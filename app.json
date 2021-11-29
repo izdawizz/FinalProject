@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "SnapShop",
+    "slug": "snapshopapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/SnapShopApp.png",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#055183"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "Senior Project App during Spring-Fall 2021\nBy:\nAnh, Danish, Israel & Simon",
+    "githubUrl": "https://github.com/AudiCmpE28/SnapShop"
+  }
+}
