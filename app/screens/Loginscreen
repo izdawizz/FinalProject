@@ -1,0 +1,87 @@
+mport { StatusBar } from 'expo-status-bar';
+//import React from 'react';
+import React, { useState } from "react";
+import {
+  StyleSheet,
+  Text,
+  View,
+  Image,
+  TextInput,
+  TouchableOpacity,
+  TouchableHighlight
+} from "react-native";
+//import colors from "../config/colors";
+
+ export default function loginScreen({ navigation }) {
+
+  return (
+    <View style={styles.container}>
+      //<Image style={styles.image} source={require("./assets/whiteCart.png")} />
+
+      <Image style={styles.image} source={require("./assets/snapLogo.png")} />
+
+
+      <StatusBar style="auto" />
+export default function loginScreen({ navigation }) {
+      {/* TouchableOpacity allows to change the condition when pressed */}
+      {/* allows us to reduce the opacity when we touch button "touchableOpacity" */}
+      <TouchableOpacity>
+        <Text style={styles.signUp}>Sign Up?</Text>
+        <Text style={styles.signUp}>Don't have an account? Sign Up</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity style={styles.loginBtn}>
+const styles = StyleSheet.create({
+    justifyContent: "center",
+  },
+
+  image: {
+
+    //width: "20",
+    marginTop: -300,
+    marginBottom: 100,
+    justifyContent: "center",
+    alignItems: "center"
+
+  },
+
+  inputView: {
+    backgroundColor: "#FFFFFF",
+const styles = StyleSheet.create({
+    justifyContent: "center",
+    alignItems: "center",
+  },
+  image: {
+    width: "95%",
+
+    height: undefined,
+    right: -10,
+
+    aspectRatio: 1.5,
+    marginBottom: 100
+  },
+  TextInput: {
+    height: 50,
+    flex: 1,
+    padding: 10,
+    marginLeft: 20,
+    marginLeft: 10,
+  },
+
+  signUp: {
+    height: 30,
+    marginBottom: 30,
+    marginBottom: 100,
+    color: "white"
+  },
+
+  loginBtn: {
+const styles = StyleSheet.create({
+    height: 50,
+    alignItems: "center",
+    justifyContent: "center",
+    marginBottom: -300,
+    marginBottom: -100,
+    backgroundColor: "#FFFFFF",
+  },
+}); 
